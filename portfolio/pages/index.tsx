@@ -1,21 +1,26 @@
+import Header from "@/components/Header";
 import { NextPage } from "next"
 
 
 const Home: NextPage = () => {
   return (
-    {/* Header */}
+    <div>
+      {/* Header */}
+      <Header />
 
-    {/* Hero */}
+      {/* Hero */}
 
-    {/* About me */}
+      {/* About me */}
 
-    {/* Experience */}
+      {/* Experience */}
 
-    {/* Skill */}
+      {/* Skill */}
 
-    {/* Projects */}
+      {/* Projects */}
 
-    {/* Contact */}
+      {/* Contact */}
+    </div>
+
   )
 };
 
