@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     <div className="text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       {/* Header */}
       <Header />
-
+      
       {/* Hero */}
       <section id="hero" className="snap-center">
         <Hero />

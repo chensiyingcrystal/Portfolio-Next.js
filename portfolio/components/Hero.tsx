@@ -1,10 +1,13 @@
-import React from 'react'
-import { Cursor, useTypewriter } from "react-simple-typewriter"
+import React from 'react';
+import photo from '../public/assets/images/me.png';
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from './BackgroundCircles';
-import Image from 'next/image'
+import Image from 'next/image';
 import Link from 'next/link';
 
 type Props = {}
+
+console.log(photo)
 
 export default function Hero({}: Props) {
     const [text, count] = useTypewriter({
@@ -17,17 +20,12 @@ export default function Hero({}: Props) {
         delaySpeed: 2000,
     });
 
+
+
     return (
         <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
             <BackgroundCircles />
-            <Image
-                className="relative rounded-full h-32 w-32 mx-auto object-cover"
-                src="/sky.jpg"
-                width={320}
-                height={320}
-                alt=""
-            />
-
+            <Image className="relative rounded-full h-44 w-44 mx-auto object-cover" src={photo} alt="" />
             <div className="z-20">
                 <h2 className="text-sm uppercase text-gray-300 pb-2 tracking-[15px]">
                     Software Engineer
@@ -53,5 +51,5 @@ export default function Hero({}: Props) {
                 </div>
             </div>
         </div>
-    )
+    );
 }
