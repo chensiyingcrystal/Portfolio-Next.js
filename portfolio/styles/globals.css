@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer components{
+  .heroButton{
+    @apply px-6 py-2 border border-[#c681da] rounded-full uppercase text-xs
+    tracking-widest text-gray-300 transition-all 
+    hover:border-[#e4d2e9]/40 hover:text-[#e4d2e9]/40
+  }
 }
 
+:root {
+  --foreground-rgb: 202, 116, 241;
+  --background-start-rgb: 141, 118, 225;
+  --background-end-rgb: 250, 110, 222;
+}
 
 body {
   color: rgb(var(--foreground-rgb));

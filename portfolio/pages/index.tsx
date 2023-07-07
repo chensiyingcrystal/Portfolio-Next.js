@@ -5,17 +5,16 @@ import { NextPage } from "next"
 
 const Home: NextPage = () => {
   return (
-    <div className="text-white h-screen">
+    <div className="text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       {/* Header */}
       <Header />
 
       {/* Hero */}
-      <section id="hero">
+      <section id="hero" className="snap-center">
         <Hero />
-
       </section>
 
-      {/* About me */}
+      {/* About */}
 
       {/* Experience */}
 

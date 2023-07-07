@@ -27,19 +27,19 @@ export default function Header({}: Props) {
             {/* social icon header with react-social-icons */}
             <SocialIcon 
                 url="https://www.linkedin.com/in/siyingchencrystal/"
-                fgColor='gray'
+                fgColor='white'
                 bgColor='transparent'
             />
 
             <SocialIcon 
                 url="https://github.com/chensiyingcrystal"
-                fgColor='gray'
+                fgColor='white'
                 bgColor='transparent'
             />
 
             <SocialIcon 
-                url="https://chensiyingcrystal.github.io/chensiying.github.io/"
-                fgColor='gray'
+                url="https://www.instagram.com/chensiyingcrystal/"
+                fgColor='white'
                 bgColor='transparent'
             />
         </ motion.div>
@@ -63,10 +63,10 @@ export default function Header({}: Props) {
             <SocialIcon 
                 className='cursor-pointer'
                 network='email'
-                fgColor='gray'
+                fgColor='white'
                 bgColor='transparent'
             /> 
-            <p className='"uppercase hidden md:inline-flex text-sm text-gray-400'>Get In Touch</p>
+            <p className='"uppercase hidden md:inline-flex text-sm text-white'>Get In Touch</p>
         </ motion.div>
 
     </header>
