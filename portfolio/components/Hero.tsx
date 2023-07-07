@@ -7,8 +7,6 @@ import Link from 'next/link';
 
 type Props = {}
 
-console.log(photo)
-
 export default function Hero({}: Props) {
     const [text, count] = useTypewriter({
         words: [
@@ -19,7 +17,6 @@ export default function Hero({}: Props) {
         loop: true,
         delaySpeed: 2000,
     });
-
 
 
     return (
