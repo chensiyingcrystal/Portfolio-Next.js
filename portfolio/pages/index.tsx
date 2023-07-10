@@ -10,7 +10,7 @@ import Contact from "@/components/Contact";
 
 const Home: NextPage = () => {
   return (
-    <div className="text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+    <div className="text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0">
       {/* Header */}
       <Header />
 
