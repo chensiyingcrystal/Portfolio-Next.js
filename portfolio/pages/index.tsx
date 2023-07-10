@@ -1,7 +1,8 @@
-import About from "@/components/about";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import { NextPage } from "next"
+import About from "@/components/About";
+import { NextPage } from "next";
+import Experience from "@/components/Experience";
 
 
 const Home: NextPage = () => {
@@ -21,12 +22,22 @@ const Home: NextPage = () => {
       </section>
 
       {/* Experience */}
+      <section id="experience" className="snap-center">
+        <Experience />
+      </section>
 
       {/* Skill */}
+      {/* <section id="skill" className="snap-center">
+        <Skill />
+      </section> */}
 
       {/* Projects */}
+      {/* <section id="projects" className="snap-center">
+        <Projects />
+      </section> */}
 
       {/* Contact */}
+
     </div>
 
   )
